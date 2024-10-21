@@ -1,27 +1,33 @@
-# Welcome to your Expo app 👋
+# 📸 Pixels
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Pixels** is a simple yet powerful image-sharing app inspired by Pinterest, built using React Native and Expo. It allows users to browse, search, filter, and share images with ease.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- **Browse Images**: Explore a wide variety of images from different categories.
+- **Search**: Easily search for images by keywords.
+- **Filters**: Filter images based on categories or tags.
+- **Save & Share**: Save your favorite images or share them with friends.
 
+## 🛠️ Built With
+
+- **React Native**: A framework for building native apps using React.
+- **Expo**: An open-source platform for building universal native apps with React.
+
+## 📱 Screens
+
+- **Home Screen**: View a collection of trending or latest images.
+- **Search Screen**: Search for images using keywords.
+- **Filters Screen**: Apply various filters to find exactly what you’re looking for.
+- **Details Screen**: View details about a selected image and share it.
+
+## 💻 Installation & Setup
+
+1. Clone the repository:
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   git clone https://github.com/your-username/pixels.git
+   cd pixels
+ndbox for trying out app development with Expo
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
