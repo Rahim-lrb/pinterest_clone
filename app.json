@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "pixels",
+    "slug": "pixels",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/pin.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rahim_enigma.pixels"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/pin.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e9b9aa40-10ee-4ea6-8c16-eef4caa9f304"
+      }
+    }
+  }
+}
