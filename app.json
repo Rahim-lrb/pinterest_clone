@@ -18,7 +18,8 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon2.png",
-        "backgroundColor": "#FF0000"
+        "backgroundColor": "#FF0000",
+        "package": "com.pin.pinterest"
       }
     },
     "web": {
