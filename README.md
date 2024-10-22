@@ -1,50 +1,105 @@
-# Welcome to your Expo app 👋
+# React Native - Pinterest App
+<img src="https://github.com/user-attachments/assets/71852607-5d79-4820-a6de-14cb98c4b589" width="800" height="450"/>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## Table of Contents
 
-1. Install dependencies
+- [What I have Learned](#what-i'have-learned)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+
+## What I have Learned
+
+- How to build clean UI
+- Routing between screens
+- How to save images in user device with expo-file-system
+- Share the images in other platforms with expo-sharing
+- How to make gradient images with expo-linear-gradient
+- Displaying clean notifications on some actions
+- How to make clean animations for all parts of the UI
+- Show Modals with using @gorhom/bottom-sheet
+- Implement blur style on some parts with expo-blur
+- Manage media on user device with expo-media-library
+- How to fetch and display dynamic data based on some filters
+- Implement masonry layout with @shopify/flash-list
+
+## Demo
+
+
+
+https://github.com/user-attachments/assets/27cf39e0-a3dd-49cf-9d55-789f82747c64
+
+<img src="https://github.com/user-attachments/assets/b9976f76-6af3-47fa-8310-c2a69eb78a94" width="280" height="550"/>
+<img src="https://github.com/user-attachments/assets/1fdfe146-0348-41ea-8f24-33975f16b81e" width="280" height="550" />
+<img src="https://github.com/user-attachments/assets/491fda75-f13f-48ba-8b40-b2846418ebd5" width="280" height="550"/>
+<img src="https://github.com/user-attachments/assets/85a044ed-d0b1-44fd-ae49-573f9ebd58af" width="280" height="550" />
+<img src="https://github.com/user-attachments/assets/41179836-c3cd-4b57-bbf7-1d85450d22df" width="280" height="550"/>
+<img src="https://github.com/user-attachments/assets/c484849a-1754-4034-aef1-6464d92c34f2" width="280" height="550"/>
+<img src="https://github.com/user-attachments/assets/eb600e37-b271-46c7-8ca8-ae4bdc03efd4" width="280" height="550"/>
+
+
+## Installation
+
+1. Clone the repository
 
    ```bash
-   npm install
+   git clone https://github.com/Shaban-Eissa/React-Native-Pinterest-App
    ```
 
-2. Start the app
-
+2. Navigate to the project directory
+    
+    ```bash
+    cd React-Native-Pinterest-App
+    ```
+   
+3. Change to folder for the app you want, Install dependencies
+    
+    ```bash
+    npm install
+    ```
+4. Create `.env` file : open [Pixabay](https://pixabay.com/api/docs/) and scroll until `Search Images` section then copy `api-key`
    ```bash
+   EXPO_PUBLIC_API_KEY= Your-API-key
+   EXPO_PUBLIC_API_URL= `https://pixabay.com/api`
+   ```
+
+## Usage
+
+1. Start the UI
+    ```bash
     npx expo start
-   ```
+    ```
+   
 
-In the output, you'll find options to open the app in a
+## Technologies
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+This project utilizes a robust stack of modern technologies for efficient development and optimal user experience:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- React Native
+- Expo
+- Axios
+- Expo Router
+- @expo/vector-icons
+- @gorhom/bottom-sheet
+- @shopify/flash-list
+- expo-blur
+- expo-file-system
+- expo-linear-gradient
+- expo-sharing
+- expo-media-library
+- react-native-reanimated
+- react-native-toast-message
+  
+  
+## Contributing
 
-## Get a fresh project
+Contributions are welcome! Please follow these guidelines:
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Fork the repository.
+2. Create a new branch for your feature/bugfix: `git checkout -b feature-name`.
+3. Commit your changes: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature-name`.
+5. Open a pull request.
