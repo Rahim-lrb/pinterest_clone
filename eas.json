@@ -1,0 +1,31 @@
+{
+  "cli": {
+    "version": ">= 12.5.2",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_API_KEY": "46636114-aff6cc8fbe11b21e93697a195",
+        "EXPO_PUBLIC_API_URL": "https://pixabay.com/api"
+      }
+    },
+    "test": {
+      "env": {
+        "EXPO_PUBLIC_API_KEY": "46636114-aff6cc8fbe11b21e93697a195",
+        "EXPO_PUBLIC_API_URL": "https://pixabay.com/api"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

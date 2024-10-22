@@ -20,7 +20,12 @@
         "foregroundImage": "./assets/images/icon2.png",
         "backgroundColor": "#FF0000",
         "package": "com.pin.pinterest"
-      }
+      },
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.pin.pinterest"
     },
     "web": {
       "bundler": "metro",
@@ -33,6 +38,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "46a7fcaf-b4a8-4086-a13d-dedcb8533823"
+      }
     }
   }
 }
